@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Posthog\Tests;
 
+use Astrogoat\Posthog\PosthogServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Posthog\PosthogServiceProvider;
 
 class TestCase extends Orchestra
 {

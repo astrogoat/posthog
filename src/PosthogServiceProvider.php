@@ -2,12 +2,11 @@
 
 namespace Astrogoat\Posthog;
 
-use Helix\Lego\Apps\App;
-use Helix\Lego\Services\FrontendViews;
-use Helix\Lego\Apps\AppPackageServiceProvider;
-use Spatie\LaravelPackageTools\Package;
 use Astrogoat\Posthog\Settings\PosthogSettings;
+use Helix\Lego\Apps\App;
+use Helix\Lego\Apps\AppPackageServiceProvider;
 use Helix\Lego\Apps\Services\IncludeFrontendViews;
+use Spatie\LaravelPackageTools\Package;
 
 class PosthogServiceProvider extends AppPackageServiceProvider
 {
