@@ -40,6 +40,7 @@ jobs:
           npm install
           npm run prod
           git add -A public
+          git commit -m "Compile assets"
 
       # Make sure that the Miles Bot user is included in the list of users who can bypass required pull request requirement
       # Your repo -> Settings -> Branches -> Main (edit) -> "Allow specified actors to bypass required pull requests"
