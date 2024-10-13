@@ -18,8 +18,8 @@ const mix = require('laravel-mix');
  |
  */
 
-// mix
+mix
     // .postCss('resources/css/posthog.css', 'css', [require('tailwindcss')('tailwind.config.js')])
-    // .js('resources/js/posthog.js', 'js')
-    // .version()
-    // .setPublicPath('public/')
+    .js('resources/js/posthog.js', 'js')
+    .version()
+    .setPublicPath('public/')
